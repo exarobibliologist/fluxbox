@@ -1,0 +1,60 @@
+---------------------------------------------
+ Style Name: Grayscale Fun
+ Style Author: Murfmeister
+ Style Date: 2016
+---------------------------------------------
+
+## GLOBAL DEFAULTS ------------------------------
+*font:					droid sans mono-8:normal
+*textColor:				#FFFFFF
+*disableColor:				#656565
+*justify:				left
+*title:					flat gradient pipecross
+
+## MENU -----------------------------------------
+menu.bullet:				square
+menu.bullet.position:			right
+
+menu.title.color:			#000000
+menu.title.colorTo:			#666666
+
+*hilite:				flat gradient horizontal
+*hilite.color:				#999999
+*hilite.colorTo:			#000000
+
+*frame:					flat gradient horizontal
+*frame.color:				#111111
+*frame.colorTo:				#444444
+
+## TOOLBAR --------------------------------------
+toolbar:				flat
+toolbar.color:				#000000
+toolbar.colorTo:			#FFFFFF
+toolbar.height:				20
+toolbar.bevelWidth:			2
+toolbar.workspace.color:		#222222
+toolbar.clock.color:			#222222
+
+toolbar.iconbar.empty:			flat interlaced
+toolbar.iconbar.empty.color:		#333333
+toolbar.iconbar.empty.colorTo:		#000000
+
+toolbar.iconbar.focused:		sunken bevel1
+toolbar.iconbar.focused.color:		#333333
+toolbar.iconbar.focused.colorTo:	#FFFFFF
+
+toolbar.iconbar.unfocused:		raised bevel2
+toolbar.iconbar.unfocused.color:	#000000
+toolbar.iconbar.unfocused.colorTo:	#555555
+toolbar.iconbar.unfocused.font:		droid sans mono-5
+
+## WINDOW ---------------------------------------
+window.borderWidth:			2
+window.roundCorners:			TopLeft BottomLeft BottomRight
+window.shade:				true
+window.borderColor:			#000000
+*focus:					flat
+*focus.color:				#666666
+*unfocus:				flat
+*unfocus.color:				#333333
+*handleWidth:				2

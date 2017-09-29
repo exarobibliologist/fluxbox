@@ -1,0 +1,126 @@
+style.name:				Murphy Dark
+style.author:				Sean Murphy <advancedphotosolutions@gmail.com>
+
+# menu ------------------------------------------
+menu.title:	flat gradient vertical
+menu.title.font:	droid sans mono-10:normal
+menu.title.color:	rgb:FF/FF/FF
+menu.title.colorTo:	rgb:66/66/66
+menu.title.textColor:	rgb:00/00/00
+menu.title.font:	droid sans mono-10
+menu.title.justify:	right
+
+menu.hilite:	flat interlaced
+menu.hilite.color:	rgb:00/00/00
+menu.hilite.colorTo:	rgb:66/66/66
+menu.hilite.textColor:	rgb:FF/FF/FF
+
+menu.bullet:	diamond
+menu.bullet.position:	right
+
+menu.frame:	flat gradient
+menu.frame.font:	droid sans mono-8
+menu.frame.justify:	left
+menu.frame.color:	rgb:00/00/00
+menu.frame.colorTo:	rgb:15/15/15
+menu.frame.textColor:	rgb:DF/DF/DF
+menu.frame.disableColor:	rgb:45/45/45
+
+# toolbar ----------------------------------------
+toolbar:	flat interlaced
+toolbar.color:	rgb:00/00/00
+toolbar.colorTo:	rgb:15/15/15
+toolbar.bevelWidth:	0
+toolbar.borderWidth:	0
+toolbar.borderColor:	rgb:00/00/00
+toolbar.height:	20
+toolbar.justify:	center
+
+toolbar.clock.font:	droid sans mono-8
+toolbar.clock:	flat interlaced
+toolbar.clock.justify:	center
+toolbar.clock.color:	rgb:66/66/66
+toolbar.clock.colorTo:	rgb:00/00/00
+toolbar.clock.textColor:	rgb:FF/FF/FF
+
+toolbar.workspace.font:	droid sans mono-7
+toolbar.workspace:	flat interlaced
+toolbar.workspace.justify:	center
+toolbar.workspace.color:	rgb:66/66/66
+toolbar.workspace.colorTo:	rgb:00/00/00
+toolbar.workspace.textColor:	rgb:FF/FF/FF
+
+toolbar.button:	flat interlaced
+toolbar.button.color:	rgb:33/33/33
+toolbar.button.colorTo:	rgb:00/00/00
+toolbar.button.picColor:	rgb:FF/FF/FF
+toolbar.button.pressed:	flat interlaced
+toolbar.button.pressed.color:	rgb:00/00/00
+toolbar.button.pressed.colorTo:		rgb:66/66/66
+toolbar.button.pressed.picColor:	rgb:FF/FF/FF
+
+toolbar.iconbar.empty:	flat interlaced
+toolbar.iconbar.empty.color:	rgb:33/33/33
+toolbar.iconbar.empty.colorTo:	rgb:00/00/00
+
+toolbar.iconbar.focused.font:	droid sans mono-7
+toolbar.iconbar.focused:	flat gradient vertical
+toolbar.iconbar.focused.color:		rgb:00/00/00
+toolbar.iconbar.focused.colorTo:	rgb:33/33/33
+toolbar.iconbar.focused.textColor:	rgb:FF/FF/FF
+toolbar.iconbar.focused.justify:	center
+
+toolbar.iconbar.unfocused.font:	droid sans mono-5
+toolbar.iconbar.unfocused:	flat gradient vertical
+toolbar.iconbar.unfocused.color:	rgb:66/66/66
+toolbar.iconbar.unfocused.colorTo:	rgb:00/00/00
+toolbar.iconbar.unfocused.textColor:	rgb:FF/FF/FF
+toolbar.iconbar.unfocused.justify:	center
+
+# window ----------------------------------------
+window.font:	droid sans mono-9
+window.shade:	true
+window.borderWidth:	3
+window.borderColor:	rgb:00/00/00
+
+window.justify:	center
+window.title.height:	20
+
+window.title.focus:	flat gradient vertical
+window.title.focus.color:	rgb:66/66/66
+window.title.focus.colorTo:	rgb:00/00/00
+window.title.unfocus:	flat gradient vertical
+window.title.unfocus.color:	rgb:33/33/33
+window.title.unfocus.colorTo:	rgb:00/00/00
+
+window.label.focus:	flat gradient vertical
+window.label.focus.color:	rgb:66/66/66
+window.label.focus.colorTo:	rgb:00/00/00
+window.label.focus.font:	droid sans mono-7
+window.label.focus.textColor:	rgb:FF/FF/FF
+window.label.unfocus:	flat gradient vertical
+window.label.unfocus.color:	rgb:33/33/33
+window.label.unfocus.colorTo:	rgb:00/00/00
+window.label.unfocus.font:	droid sans mono-5
+window.label.unfocus.textColor:	rgb:FF/FF/FF
+
+window.button.focus:	flat
+window.button.focus.color:	rgb:66/66/66
+window.button.focus.picColor:	rgb:00/00/00
+window.button.unfocus:	flat
+window.button.unfocus.Color:	rgb:25/25/25
+window.button.unfocus.picColor:	rgb:FF/FF/FF
+window.button.pressed:	flat
+window.button.pressed.color:	rgb:00/00/00
+window.button.pressed.picColor:	rgb:66/66/66
+
+window.handle.focus:	flat
+window.handle.focus.color:	rgb:45/45/45
+window.handle.unfocus:	flat
+window.handle.unfocus.color:	rgb:00/00/00
+window.handleWidth:	1
+
+window.grip.focus:	flat
+window.grip.focus.color:	rgb:45/45/45
+window.grip.unfocus:	flat
+window.grip.unfocus.color:	rgb:00/00/00

@@ -1,0 +1,136 @@
+# $Id: GreenCRT,v 1.8 2004-08-04 12:01:24 mitch Exp $
+#
+# Green CRT style for the Fluxbox window manager
+#
+# 2004 by Christian Garbs <mitch@cgarbs.de>
+#
+# I started hacking with my "Anime no Tomodachi" theme as a template,
+# but none of the original settings have survived.
+
+toolbar:			Flat Solid Interlaced
+toolbar.color:			rgb:00/60/00
+toolbar.colorTo:		rgb:00/00/00
+
+toolbar.button:			Flat Solid Interlaced
+toolbar.button.color:		rgb:00/60/00
+toolbar.button.colorTo:		rgb:00/00/00
+toolbar.button.picColor:	rgb:00/B0/00
+
+toolbar.button.pressed:		Flat Solid Interlaced
+toolbar.button.pressed.color:	rgb:00/90/00
+toolbar.button.pressed.colorTo:	rgb:00/00/00
+
+toolbar.clock:			ParentRelative
+toolbar.clock.color:		rgb:00/60/00
+toolbar.clock.colorTo:		rgb:00/60/00
+toolbar.clock.textColor:	rgb:00/B0/00
+
+toolbar.iconbar.focused:	ParentRelative
+toolbar.iconbar.unfocused:	ParentRelative
+toolbar.iconbar.*.color:	rgb:00/60/00
+toolbar.iconbar.*.colorTo:	rgb:00/00/00
+toolbar.iconbar.unfocused.textColor:	rgb:00/B0/00
+toolbar.iconbar.focused.textColor:	rgb:00/DF/00
+
+toolbar.label:			ParentRelative
+toolbar.label.color:		rgb:00/60/00
+toolbar.label.colorTo:		rgb:00/00/00
+toolbar.label.textColor:	rgb:00/B0/00
+
+toolbar.windowLabel:		ParentRelative
+toolbar.windowLabel.color:	rgb:FF/60/00
+toolbar.windowLabel.colorTo:	rgb:00/00/00
+toolbar.windowLabel.textColor:	rgb:00/B0/00
+
+toolbar.workspace:		ParentRelative
+toolbar.workspace.color:	rgb:00/60/00
+toolbar.workspace.colorTo:	rgb:00/00/00
+toolbar.workspace.textColor:	rgb:00/B0/00
+
+menu.title:			Flat Gradient Vertical Interlaced
+menu.title.color:		rgb:00/60/00
+menu.title.colorTo:		rgb:00/60/00
+menu.title.textColor:		rgb:00/DF/00
+
+menu.frame:			Flat Solid Interlaced
+menu.frame.color:		rgb:00/60/00
+menu.frame.colorTo:		rgb:00/00/00
+menu.frame.textColor:		rgb:00/B0/00
+
+menu.hilite:			Flat Gradient Vertical Interlaced
+menu.hilite.color:		rgb:00/90/00
+menu.hilite.colorTo:		rgb:00/90/00
+menu.hilite.textColor:		rgb:00/DF/00
+
+menu.bullet:			Triangle
+menu.bullet.position:		Right
+
+window.title.focus:		Flat Gradient Vertical Interlaced
+window.title.focus.color:	rgb:00/70/00
+window.title.focus.colorTo:	rgb:00/70/00
+window.title.unfocus:		Flat Solid Interlaced
+window.title.unfocus.color:	rgb:00/60/00
+window.title.unfocus.colorTo:	rgb:00/00/00
+
+window.label.focus:		ParentRelative
+window.label.focus.textColor:	rgb:00/DF/00
+window.label.unfocus:		ParentRelative
+window.label.unfocus.textColor:	rgb:00/B0/00
+
+window.button.focus:		ParentRelative
+window.button.focus.picColor:	rgb:00/DF/00
+window.button.unfocus:		ParentRelative
+window.button.unfocus.picColor:	rgb:00/B0/00
+window.button.pressed:		Flat Solid Interlaced
+window.button.pressed.color:	rgb:00/60/00
+
+window.frame.focus:		Flat Solid Interlaced
+window.frame.focusColor:	rgb:00/90/00
+window.frame.unfocus:		Flat Solid Interlaced
+window.frame.unfocusColor:	rgb:00/60/00
+
+window.handle.focus:		Flat
+window.handle.focus.color:	rgb:00/70/00
+window.handle.unfocus:		Flat
+window.handle.unfocus.color:	rgb:00/60/00
+
+window.grip.focus:		Flat
+window.grip.focus.color:	rgb:00/B0/00
+window.grip.unfocus:		Flat
+window.grip.unfocus.color:	rgb:00/70/00
+
+window.tab.label.unfocus:	        Flat Solid Interlaced
+window.tab.label.unfocus.color:	   	rgb:00/60/00
+window.tab.label.unfocus.textColor:	rgb:00/B0/00
+
+window.tab.label.focus:	        	Flat Solid Interlaced
+window.tab.label.focus.Color:	  	rgb:00/60/00
+window.tab.label.focus.ColorTo:	  	rgb:00/60/00
+window.tab.label.focus.textColor:	rgb:00/DF/00
+
+window.tab.borderColor:			rgb:00/00/00
+
+# Justification
+menu.frame.justify:		Left
+menu.title.justify:		Left
+toolbar.justify:		Center
+toolbar.*.justify:		Center
+window.justify:			Center
+window.tab.justify:	        Center
+
+# Fonts
+menu.frame.font:              	-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+menu.title.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+toolbar.font:			-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+window.font:			-xos4-terminus-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
+window.tab.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+
+# Borders
+bevelWidth:			1
+borderColor:			rgb:00/00/00
+# Try borderColor:		rgb:FF/FF/FF
+borderWidth:			1
+handleWidth:			2
+window.tab.borderWidth:		1
+toolbar.*.borderWidth:		0
+toolbar.*.bevelWidth:		0

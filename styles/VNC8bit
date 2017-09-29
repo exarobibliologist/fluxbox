@@ -1,0 +1,147 @@
+# $Id: VNC8bit,v 1.6 2004-08-04 12:49:13 mitch Exp $
+# VNC 8bit
+# 2003-2004 by <mitch@cgarbs.de>
+#
+# this is just a minor variation of:
+#
+# # "Clean"
+# # A Fluxbox theme by: skypher of perplexity
+# # 2001
+#
+# background taken from:
+#
+# # "Clean Color"
+# # A Fluxbox theme by: skypher of perplexity
+# # 2001
+
+
+toolbar:			Flat Solid Interlaced
+toolbar.color:			rgb:CC/CC/CC
+toolbar.colorTo:		rgb:FF/FF/FF
+
+toolbar.iconbar.empty:		ParentRelative
+toolbar.iconbar.empty.color:	rgb:CC/CC/CC
+toolbar.iconbar.focused:	Flat Solid
+toolbar.iconbar.focused.color:	rgb:AD/B4/CD
+toolbar.iconbar.unfocused:	ParentRelative
+toolbar.iconbar.unfocused.color:	rgb:90/BB/CC
+
+#toolbar.workspace:		ParentRelative
+#toolbar.workspace.color:	rgb:CC/CC/CC
+
+toolbar.button:			ParentRelative
+toolbar.button.color:		rgb:CC/CC/CC
+toolbar.button.picColor:	rgb:10/10/10
+
+toolbar.button.pressed:		Flat Solid Interlaced
+toolbar.button.pressed.color:	rgb:80/80/80
+
+toolbar.clock:			ParentRelative
+toolbar.clock.color:		rgb:CC/CC/CC
+toolbar.clock.textColor:	rgb:10/10/10
+
+toolbar.label:			ParentRelative
+toolbar.label.color:		rgb:CC/CC/CC
+toolbar.label.textColor:	rgb:10/10/10
+
+toolbar.windowLabel:		ParentRelative
+toolbar.windowLabel.color:	rgb:CC/CC/CC
+toolbar.windowLabel.textColor:	rgb:10/10/10
+
+toolbar.workspace:		ParentRelative
+toolbar.workspace.color:	rgb:CC/CC/CC
+toolbar.workspace.textColor:	rgb:10/10/10
+
+toolbar.justify:		right
+
+menu.title:			Raised Solid
+menu.title.color:		rgb:AD/B4/CD
+menu.title.textColor:		rgb:10/10/10
+menu.title.justify:		Right
+
+menu.frame:			Solid
+menu.frame.color:		rgb:CC/CC/CD
+menu.frame.colorTo:		rgb:CA/CD/CE
+menu.frame.textColor:		rgb:10/10/10
+menu.frame.justify:		Right
+
+menu.hilite:			Raised
+menu.hilite.color:		rgb:40/40/40
+menu.hilite.textColor:		rgb:CC/CC/CC
+
+menu.bullet:			Diamond
+menu.bullet.position:		Right
+
+
+window.title.focus:		Solid Raised
+window.title.focus.color:	rgb:CC/CC/CC
+
+window.title.unfocus:		Flat Solid
+window.title.unfocus.color:	rgb:BE/BE/BE
+
+window.label.focus:		Flat Solid
+window.label.focus.color:	rgb:AD/B4/CD
+window.label.focus.textColor:	rgb:10/10/10
+
+window.label.unfocus:		Flat Solid
+window.label.unfocus.color:	rgb:BE/BE/BE
+window.label.unfocus.textColor:	rgb:09/09/09
+
+window.button.focus:		Flat Solid
+window.button.focus.color:	rgb:CC/CC/CC
+window.button.focus.picColor:	rgb:10/10/10
+
+window.button.unfocus:		Flat Solid
+window.button.unfocus.color:	rgb:BE/BE/BE
+window.button.unfocus.picColor:	rgb:09/09/09
+
+window.button.pressed:		Sunken Bevel1 Solid
+window.button.pressed.color:	rgb:80/80/80
+
+window.frame.focus:		Flat
+window.frame.focus.color:	rgb:CC/CC/CC
+window.frame.unfocus:		Flat
+window.frame.unfocus.color:	rgb:BE/BE/BE
+
+window.handle.focus:		Raised Solid
+window.handle.focus.color:	rgb:CC/CC/CC
+window.handle.unfocus:		Flat Solid
+window.handle.unfocus.color:	rgb:BC/BC/BC
+
+window.grip.focus:		Raised Gradient Diagonal Interlaced
+window.grip.focus.color:	rgb:9B/9B/9B
+window.grip.focus.colorTo:	rgb:80/80/80
+window.grip.unfocus:		Raised Gradient Diagonal
+window.grip.unfocus.color:	rgb:9B/9B/9B
+window.grip.unfocus.colorTo:	rgb:80/80/80
+
+! ----------- tab - explicit for fluxbox, the best wm out there[tm] (;
+window.tab.justify:	                Right
+window.tab.label.unfocus:	        Flat Solid
+window.tab.label.unfocus.color:	   rgb:AC/AC/AC
+window.tab.label.unfocus.textColor:	black
+window.tab.label.focus:	        Raised Solid
+window.tab.label.focus.color:	  rgb:CC/CC/CC
+window.tab.label.focus.textColor:	black
+window.tab.borderWidth:	1
+window.tab.borderColor:	rgb:10/10/10
+! ----------- (fluxbox.sourceforge.net)
+window.tab.font:	               -*-lucidatypewriter-medium-r-normal-*-10-100-75-75-m-60-iso8859-*
+
+window.justify:			Right
+
+toolbar.font: 		-*-lucidatypewriter-medium-r-normal-*-10-100-75-75-m-60-iso8859-*
+window.font: 		-misc-8x8\ system\ font-medium-r-normal--9-90-100-100-m-100-iso8859-*
+menu.title.font:	-misc-8x8\ system\ font-medium-r-normal--9-90-100-100-m-100-iso8859-*
+menu.frame.font:    	-*-lucida-medium-r-normal-*-10-100-*-*-*-*-iso8859-*
+
+borderColor:			rgb:FF/FF/FF
+
+bevelWidth:			1
+borderWidth:			1
+handleWidth:			2
+
+toolbar.*.bevelWidth:		0
+toolbar.*.borderWidth:		1
+
+rootCommand:    bsetroot -mod 4 4 -bg rgb:9A/9A/9A -fg rgb:30/60/90

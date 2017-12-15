@@ -1,7 +1,7 @@
 #################################
 # Keyboard Shortcuts in Fluxbox #
 #################################
-Mod4 w :Exec google-chrome			# Opens Chrome as Web Browser
+Mod4 w :Exec firefox			# Opens Web Browser
 Mod4 Mod1 w :Exec torbrowser-launcher		# Tor
 Control Mod4 Mod1 w :Exec ktorrent		# Torrents
 
@@ -17,7 +17,7 @@ Control Mod4 Mod1 m :Exec konsole -e "mocp"	# Play That Funky Music
 
 Mod4 f :Exec dolphin4				# Non-root file manager
 Mod4 Mod1 f :Exec konsole -e "sudo dolphin4"	# Root File Manager
-Mod4 k :Exec konversation			# IRC
+Mod4 i :Exec hexchat				# IRC
 
 Mod4 h :Exec konsole -e htop			# htop
 Mod4 x :Exec xkill				# 

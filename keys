@@ -1,25 +1,26 @@
 #################################
 # Keyboard Shortcuts in Fluxbox #
 #################################
-Mod4 w :Exec firefox			# Opens Web Browser
-Mod4 Mod1 w :Exec torbrowser-launcher		# Tor
-Control Mod4 Mod1 w :Exec ktorrent		# Torrents
+Mod4 w :Exec google-chrome			# Opens Web Browser
+Mod4 Mod1 w :Exec firefox
+
+Mod4 p :Exec torbrowser-launcher		# Tor
+Mod4 Mod1 p :Exec ktorrent		# Torrents
 
 Mod4 e :Exec kate				# Editor
 Mod4 Mod1 e :Exec konsole -e "cd ~/GIT/ & nano"# Nano
-Control Mod4 Mod1 e :Exec libreoffice		# LibreOffice
+Control Mod4 Mod1 e :Exec libreoffice	# LibreOffice
 
 Mod4 c :Exec compton				# Compositor
 
 Mod4 m :Exec smplayer				# SMplayer
-Mod4 Mod1 m: Exec vlc				# VLC
+Mod4 Mod1 m :Exec vlc				# VLC
 Control Mod4 Mod1 m :Exec konsole -e "mocp"	# Play That Funky Music
 
 Mod4 f :Exec dolphin4				# Non-root file manager
 Mod4 Mod1 f :Exec konsole -e "sudo dolphin4"	# Root File Manager
 Mod4 i :Exec hexchat				# IRC
 
-Mod4 h :Exec konsole -e htop			# htop
 Mod4 x :Exec xkill				# 
 Mod4 space :RootMenu				# Main Menu
 
@@ -30,8 +31,8 @@ Mod4 l :Exec xscreensaver-command -lock		# Lock Screen
 Mod4 Mod1 l :Exec xscreensaver-demo
 Mod4 v :Exec pavucontrol			# Volume Control
 
-Mod4 i :Exec konsole -e "sudo mintstick -m iso"		# Mintstick Iso Writer
-Mod4 Mod1 i :Exec konsole -e "sudo mintstick -m format"	# Mintstick Formatter
+Mod4 u :Exec konsole -e "sudo mintstick -m iso"		# Mintstick Iso Writer
+Mod4 Mod1 u :Exec konsole -e "sudo mintstick -m format"	# Mintstick Formatter
 
 Mod4 a :Exec konsole -e "sudo aptitude"		# Aptitude
 Mod4 Mod1 a :Exec konsole -e "sudo synaptic"	# Synaptic
@@ -46,7 +47,7 @@ Mod1 F9 :Minimize			# Minimize
 Mod1 F10 :Maximize			# Maximize
 Mod1 F11 :Fullscreen			# Fullscreen
 107 :Exec spectacle			# PrintScreen takes a screenshot
-Mod1 107 :Exec scrot '%F-%S-%N_$wx$h_scrot.png' -e 'mv $f ~/images/'		# PrintScreen takes a screenshot and stores it in /images
+Mod1 107 :Exec scrot '%F-%S-%N_$wx$h_scrot.png' -e 'mv $f ~/Pictures'		# PrintScreen takes a screenshot
 
 # double click on the titlebar to shade
 OnTitlebar Double Mouse1 :Shade

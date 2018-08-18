@@ -8,7 +8,7 @@ Mod4 p :Exec torbrowser-launcher		# Tor
 Mod4 Mod1 p :Exec ktorrent		# Torrents
 
 Mod4 e :Exec kate				# Editor
-Mod4 Mod1 e :Exec konsole -e "cd ~/GIT/ & nano"# Nano
+Mod4 Mod1 e :Exec konsole -e "cd ~/GIT/ & nano" # Nano
 Control Mod4 Mod1 e :Exec libreoffice	# LibreOffice
 
 Mod4 c :Exec compton				# Compositor
@@ -19,6 +19,8 @@ Control Mod4 Mod1 m :Exec konsole -e "mocp"	# Play That Funky Music
 
 Mod4 f :Exec dolphin4				# Non-root file manager
 Mod4 Mod1 f :Exec konsole -e "sudo dolphin4"	# Root File Manager
+Control Mod4 Mod1 f :Exec nautilus		# Nautilus with Dropbox (Usually)
+
 Mod4 i :Exec hexchat				# IRC
 
 Mod4 x :Exec xkill				# 

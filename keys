@@ -1,43 +1,47 @@
 #################################
 # Keyboard Shortcuts in Fluxbox #
 #################################
-Mod4 w :Exec google-chrome			# Opens Web Browser
+Mod4 t :Exec terminator				# Terminal
+## Internet Programs ##
+Mod4 i :Exec hexchat
+Mod4 w :Exec google-chrome
 Mod4 Mod1 w :Exec firefox
+Control Mod4 Mod1 w :Exec torbrowser-launcher
 
-Mod4 p :Exec torbrowser-launcher		# Tor
+## Torrent Programs ##
+Mod4 p :Exec ktorrent		# Tor
 Mod4 Mod1 p :Exec ktorrent		# Torrents
 
-Mod4 e :Exec kate				# Editor
-Mod4 Mod1 e :Exec konsole -e "cd ~/GIT/ & nano" # Nano
-Control Mod4 Mod1 e :Exec libreoffice	# LibreOffice
+## Media Players ##
+Mod4 m :Exec smplayer					# Video
+Mod4 Mod1 m :Exec terminator --command="mocp"		# Music on Console
+
+## Text Editors ##
+Mod4 e :Exec terminator --command="cd ~/GIT/ & nano"	# Nano
+Mod4 Mod1 e :Exec libreoffice	# LibreOffice
+
+## File Browsers ##
+Mod4 f :Exec spacefm					# Non-root File Browser
+Mod4 Mod1 f :Exec terminator --command="sudo spacefm"	# ROOT FILE BROWSER
+Control Mod4 Mod1 f :Exec nautilus			# Nautilus with Dropbox (Usually)
 
 Mod4 c :Exec compton				# Compositor
-
-Mod4 m :Exec smplayer				# SMplayer
-Mod4 Mod1 m :Exec vlc				# VLC
-Control Mod4 Mod1 m :Exec konsole -e "mocp"	# Play That Funky Music
-
-Mod4 f :Exec dolphin4				# Non-root file manager
-Mod4 Mod1 f :Exec konsole -e "sudo dolphin4"	# Root File Manager
-Control Mod4 Mod1 f :Exec nautilus		# Nautilus with Dropbox (Usually)
+Mod4 d :Exec terminator --command="dropbox start"
 
 Mod4 i :Exec hexchat				# IRC
 
 Mod4 x :Exec xkill				# 
 Mod4 space :RootMenu				# Main Menu
 
-Mod4 t :Exec terminator				# Terminal
-Mod4 Mod1 t :Exec konsole			# Terminal Konsole
-
 Mod4 l :Exec xscreensaver-command -lock		# Lock Screen
 Mod4 Mod1 l :Exec xscreensaver-demo
 Mod4 v :Exec pavucontrol			# Volume Control
 
-Mod4 u :Exec konsole -e "sudo mintstick -m iso"		# Mintstick Iso Writer
-Mod4 Mod1 u :Exec konsole -e "sudo mintstick -m format"	# Mintstick Formatter
+Mod4 u :Exec terminator --command="sudo mintstick -m iso"		# Mintstick Iso Writer
+Mod4 Mod1 u :Exec terminator --command="sudo mintstick -m format"	# Mintstick Formatter
 
-Mod4 a :Exec konsole -e "sudo aptitude"		# Aptitude
-Mod4 Mod1 a :Exec konsole -e "sudo synaptic"	# Synaptic
+Mod4 a :Exec terminator --command="sudo aptitude"		# Aptitude
+Mod4 Mod1 a :Exec terminator --command="sudo synaptic"	# Synaptic
 
 Mod1 Tab :NextWindow (workspace=[current])
 Mod1 Shift Tab :PrevWindow (workspace=[current])

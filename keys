@@ -9,8 +9,7 @@ Mod4 Mod1 w :Exec firefox
 Control Mod4 Mod1 w :Exec torbrowser-launcher
 
 ## Torrent Programs ##
-Mod4 p :Exec ktorrent		# Tor
-Mod4 Mod1 p :Exec ktorrent		# Torrents
+Mod4 p :Exec ktorrent
 
 ## Media Players ##
 Mod4 m :Exec smplayer					# Video
@@ -30,8 +29,8 @@ Mod4 d :Exec terminator --command="dropbox start"
 
 Mod4 i :Exec hexchat				# IRC
 
-Mod4 x :Exec xkill				# 
-Mod4 space :RootMenu				# Main Menu
+Mod4 x :Exec xkill
+Mod4 space :RootMenu
 
 Mod4 l :Exec xscreensaver-command -lock		# Lock Screen
 Mod4 Mod1 l :Exec xscreensaver-demo
@@ -40,7 +39,7 @@ Mod4 v :Exec pavucontrol			# Volume Control
 Mod4 u :Exec terminator --command="sudo mintstick -m iso"		# Mintstick Iso Writer
 Mod4 Mod1 u :Exec terminator --command="sudo mintstick -m format"	# Mintstick Formatter
 
-Mod4 a :Exec terminator --command="sudo aptitude"		# Aptitude
+Mod4 a :Exec terminator --command="sudo aptitude"	# Aptitude
 Mod4 Mod1 a :Exec terminator --command="sudo synaptic"	# Synaptic
 
 Mod1 Tab :NextWindow (workspace=[current])

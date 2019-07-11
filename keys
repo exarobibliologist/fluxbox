@@ -56,6 +56,13 @@ Mod1 F11 :Fullscreen			# Fullscreen
 107 :Exec spectacle			# PrintScreen takes a screenshot
 Mod1 107 :Exec scrot '%F-%S-%N_$wx$h_scrot.png' -e 'mv $f ~/Pictures'		# PrintScreen takes a screenshot
 
+# Tiling
+Control Mod1 Left :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 Left}
+Control Mod1 Right :MacroCmd {ResizeTo 50% 100%} {MoveTo 00 00 Right}
+Control Mod1 Up :MacroCmd {ResizeTo 100% 50%} {MoveTo 00 00 Up}
+Control Mod1 Down :MacroCmd {ResizeTo 100% 50%} {MoveTo 00 00 Bottom}
+Control Mod1 Return :ToggleCmd {Maximize} {Restore}
+
 # double click on the titlebar to shade
 OnTitlebar Double Mouse1 :Shade
 
@@ -139,8 +146,8 @@ Mod4 Left :SendToPrevWorkspace
 Mod4 Right :SendToNextWorkspace
 
 # send the current window and follow it to previous/next workspace
-Control Mod4 Left :TakeToPrevWorkspace
-Control Mod4 Right :TakeToNextWorkspace
+Control Mod4 Mod1 Left :TakeToPrevWorkspace
+Control Mod4 Mod1 Right :TakeToNextWorkspace
 
 # change to a specific workspace
 Control F1 :Workspace 1

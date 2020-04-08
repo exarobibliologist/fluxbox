@@ -22,7 +22,7 @@ Mod4 e :Exec terminator --command="cd ~/GIT/ & nano"	# Nano
 ## File Browsers ##
 Mod4 f :Exec spacefm					# Non-root File Browser
 Mod4 Mod1 f :Exec terminator --command="sudo spacefm"	# ROOT FILE BROWSER
-Control Mod4 Mod1 f :Exec nautilus			# Nautilus with Dropbox (Usually)
+Control Mod4 Mod1 f :Exec thunar			# Thunar
 
 ## Compositor
 Mod4 c :Exec compton				# Compositor
